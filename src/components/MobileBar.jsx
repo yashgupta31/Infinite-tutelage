@@ -16,7 +16,7 @@ import { LiaHeadphonesAltSolid } from 'react-icons/lia'
 
 const MobileBar = () => {
   return (
-    <Box bg={colors.primary} color={'white'} zIndex={99} w={'19rem'} h={'100vh'} position={'fixed'} left={0} top={0} display={'flex'} flexDirection={'column'} alignItems={'center'} pt={'5rem'} boxShadow={'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}>
+    <Box bg={colors.primary} color={'white'} zIndex={999} w={'19rem'} h={'140vh'} position={'fixed'} left={0} top={0} display={'flex'} flexDirection={'column'} alignItems={'center'} pt={'5rem'} boxShadow={'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}>
             {/* {
                 flag ? <Icon as={GoChevronLeft} onClick={() => setFlag(false)} color={'black'} fontSize={'1.9rem'} bg={'white'} borderRadius={'50%'} p={'0.3rem'} position={'absolute'} right={'-0.8rem'} top={'1.7rem'} cursor={'pointer'} /> :
                     <Icon as={GoChevronRight} onClick={() => setFlag(true)} color={'black'} fontSize={'1.9rem'} bg={'white'} borderRadius={'50%'} p={'0.3rem'} position={'absolute'} right={'-0.8rem'} top={'1.7rem'} cursor={'pointer'} />
